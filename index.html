@@ -1,56 +1,244 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Монтаж скрытых плинтусов в Беларуси</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Монтаж скрытых плинтусов — Сергей</title>
+  <meta name="description" content="Монтаж скрытых плинтусов, консультации. Заявки, замеры, оперативный выезд. Тел +375298274342" />
+  <meta name="keywords" content="плинтус, скрытый плинтус, монтаж плинтуса, монтаж скрытого плинтуса, замер, Минск" />
+  <link rel="icon" href="data:,"><style>
+  /* Simple modern styling (mobile-first) */
+  :root{--accent:#0f766e;--muted:#6b7280;--bg:#f8fafc;--card:#ffffff}
+  *{box-sizing:border-box}
+  body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:var(--bg); color:#0f172a}
+  .container{max-width:980px;margin:24px auto;padding:20px}
+  header{display:flex;gap:16px;align-items:center}
+  .logo{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#0ea5a4);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:20px}
+  h1{margin:0;font-size:20px}
+  p.lead{margin:6px 0;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:18px}
+  @media(min-width:900px){.grid{grid-template-columns:420px 1fr}}
+  .card{background:var(--card);padding:16px;border-radius:14px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+
+  .services li{margin:8px 0;display:flex;justify-content:space-between}
+  .price{font-weight:700}
+
+  .contacts{display:flex;flex-direction:row;gap:8px;align-items:center;flex-wrap:wrap}
+  .btn{display:inline-flex;gap:8px;align-items:center;padding:10px 12px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none}
+  .btn.secondary{background:#e6f6f5;color:var(--accent);border:1px solid rgba(15,118,110,0.08)}
+
+  /* Calculator styles */
+  .calc-row{display:flex;gap:8px;margin:8px 0;align-items:center}
+  .calc-row input[type="number"],select{padding:8px;border-radius:8px;border:1px solid #e6e9ee;width:100%}
+  .calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .result{font-size:20px;font-weight:700;color:var(--accent)}
+
+  footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .gallery img{width:100%;height:110px;object-fit:cover;border-radius:8px}
+
+  .note{font-size:13px;color:var(--muted)} 
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Монтаж скрытых, теневых и микроплинтусов</h1>
-    <p>Беларусь | Цена: от 30 BYN/м</p>
-    <a href="#calc">Рассчитать стоимость</a>
-  </header>
+  <div class="container">
+    <header>
+      <div class="logo">SZ</div>
+      <div>
+        <h1>Монтаж скрытых плинтусов — Сергей</h1>
+        <p class="lead">Монтаж скрытых плинтусов и консультирование. Работа по заявкам и замерам.</p>
+        <div class="contacts">
+          <a class="btn" href="tel:+375298274342">Позвонить</a>
+          <a class="btn" href="https://wa.me/375298274342" target="_blank">WhatsApp</a>
+          <a class="btn" href="viber://chat?number=%2B375298274342">Viber</a>
+          <a class="btn secondary" href="mailto:sergey8274342@yandex.ru">sergey8274342@yandex.ru</a>
+        </div>
+      </div>
+    </header>
 
-  <section id="types">
-    <h2>Виды плинтусов</h2>
-    <ul>
-      <li>Скрытый плинтус</li>
-      <li>Теневой плинтус</li>
-      <li>Микроплинтус</li>
-    </ul>
-  </section>
+    <div class="grid">
+      <aside class="card">
+        <h3>Услуги и цены (базовые)</h3>
+        <ul class="services">
+          <li><span>Монтаж скрытого плинтуса</span><span class="price">60 руб/м.п</span></li>
+          <li><span>С подсветкой</span><span class="price">90 руб/м.п</span></li>
+          <li><span>Теневой плинтус</span><span class="price">30 руб/м.п</span></li>
+          <li><span>Микро плинтус</span><span class="price">6 руб/м.п</span></li>
+          <li><span>Дюрополимер</span><span class="price">10 руб/м.п</span></li>
+          <li><span>МДФ</span><span class="price">10 руб/м.п</span></li>
+          <li><span>ПВХ</span><span class="price">8 руб/м.п</span></li>
+          <li><span>Дерево</span><span class="price">12 руб/м.п</span></li>
+          <li><span>Металл</span><span class="price">15 руб/м.п</span></li>
+          <li><span>Полиуретан</span><span class="price">12 руб/м.п</span></li>
+        </ul>
+        <hr />
+        <p class="note">Цвета и дизайн в современном стиле. Фото работ можно прислать или заказать генерацию изображений.</p>
 
-  <section id="process">
-    <h2>Процесс монтажа</h2>
-    <p>Мы используем современные технологии для качественного и долговечного результата...</p>
-  </section>
+        <h3 style="margin-top:12px">Галерея (30 мест)</h3>
+        <div class="gallery" id="gallery">
+          <!-- placeholders: 30 slots, user can upload real photos later -->
+        </div>
+        <p class="note">Замените изображения в папке /images или загрузите через CMS.</p>
+      </aside>
 
-  <section id="gallery">
-    <h2>Фотогалерея работ</h2>
-    <img src="assets/example1.jpg" alt="Пример работы">
-  </section>
+      <main>
+        <div class="card">
+          <h2>Онлайн-калькулятор</h2>
+          <p class="note">Введите метраж и параметры — калькулятор применит коэффициенты к базовой цене.</p>
 
-  <section id="reviews">
-    <h2>Отзывы клиентов</h2>
-    <blockquote>“Отличное качество, рекомендую!”</blockquote>
-  </section>
+          <div style="margin-top:8px">
+            <label>Выберите услугу</label>
+            <select id="service">
+              <option value="60">Монтаж скрытого плинтуса — 60</option>
+              <option value="90">С подсветкой — 90</option>
+              <option value="30">Теневой — 30</option>
+              <option value="6">Микро — 6</option>
+              <option value="10">Дюрополимер — 10</option>
+              <option value="10m">МДФ — 10</option>
+              <option value="8">ПВХ — 8</option>
+              <option value="12">Дерево — 12</option>
+              <option value="15">Металл — 15</option>
+              <option value="12p">Полиуретан — 12</option>
+            </select>
+          </div>
 
-  <section id="calc">
-    <h2>Калькулятор стоимости</h2>
-    <label>Длина (м): <input type="number" id="length"></label>
-    <label>Углы (шт): <input type="number" id="corners"></label>
-    <button onclick="calc()">Рассчитать</button>
-    <p id="result"></p>
-  </section>
+          <div class="calc-grid" style="margin-top:8px">
+            <div>
+              <label>Длина (м.п.)</label>
+              <input type="number" id="length" value="10" min="0" step="0.1">
+            </div>
+            <div>
+              <label>Кол-во углов</label>
+              <input type="number" id="angles" value="4" min="0" step="1">
+            </div>
+          </div>
 
-  <section id="contacts">
-    <h2>Контакты</h2>
-    <p>Телефон: <a href="tel:+375298274342">+375298274342</a></p>
-    <p>Telegram: <a href="https://t.me/Sazag37">@Sazag37</a></p>
-  </section>
+          <h4 style="margin-top:12px">Тип стен (коэффициенты)</h4>
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;">
+            <label>Кирпичная стена <input type="number" class="coef" id="brick" value="1.20" step="0.01"></label>
+            <label>Монолитная стена <input type="number" class="coef" id="monolit" value="1.15" step="0.01"></label>
+            <label>Штукатурка <input type="number" class="coef" id="plaster" value="1.10" step="0.01"></label>
+            <label>Гипсокартон <input type="number" class="coef" id="gk" value="1.05" step="0.01"></label>
+            <label>Примыкание к дверям <input type="number" class="coef" id="door" value="1.08" step="0.01"></label>
+            <label>Блочная стена <input type="number" class="coef" id="block" value="1.18" step="0.01"></label>
+            <label>Деревянная стена <input type="number" class="coef" id="wood" value="1.12" step="0.01"></label>
+            <label>Полукруглая стена <input type="number" class="coef" id="arc" value="1.25" step="0.01"></label>
+          </div>
 
-  <script src="script.js"></script>
+          <div style="margin-top:12px" class="calc-row">
+            <button class="btn" id="calcBtn">Посчитать</button>
+            <div style="margin-left:auto">Итог: <span class="result" id="total">0 руб</span></div>
+          </div>
+
+          <hr />
+
+          <h3>Онлайн-заявка</h3>
+          <p class="note">Форма отправляет данные на указанную endpoint (замените на Formspree / Netlify / ваш webhook).</p>
+          <form id="leadForm">
+            <div style="display:grid;gap:8px">
+              <input type="text" id="name" placeholder="Имя" required>
+              <input type="tel" id="phone" placeholder="Телефон" value="+375 (29) 827-43-42" required>
+              <textarea id="comment" placeholder="Комментарий / адрес / удобное время" rows="3"></textarea>
+              <input type="hidden" id="calc_summary" name="calc_summary">
+              <div style="display:flex;gap:8px">
+                <button class="btn" type="submit">Отправить заявку</button>
+                <a class="btn secondary" id="callBtn" href="tel:+375298274342">Позвонить</a>
+                <a class="btn" id="tgBtn" href="https://t.me/" target="_blank">Написать в Telegram</a>
+              </div>
+            </div>
+          </form>
+
+          <p class="note" style="margin-top:10px">Интеграция с Telegram: для автоматических уведомлений используйте webhook (Formspree → Zapier/Make → Telegram Bot) или разместите небольшую serverless-функцию, которая будет отправлять сообщения через Bot API. Не вставляйте токен бота в клиентский JS.</p>
+
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Аналитика и продвижение</h3>
+          <ul>
+            <li>Подключение Google Analytics (gtag) — вставьте ваш GA4 Measurement ID.</li>
+            <li>Подключение Яндекс.Метрики для тепловых карт и целей — вставьте ваш counter ID.</li>
+            <li>Добавьте meta-теги (Open Graph) и sitemap.xml (шаблон ниже) для SEO.</li>
+            <li>Подключите Google Search Console, Bing Webmaster — подтвердите права через DNS или файл.</li>
+            <li>Используйте UTM-метки в рекламных кампанийах для анализа трафика.</li>
+          </ul>
+        </div>
+
+      </main>
+    </div>
+
+    <footer>
+      <div>© Сергей — Монтаж скрытых плинтусов</div>
+    </footer>
+  </div>
+
+<script>
+// Populate gallery placeholders (30)
+const gallery = document.getElementById('gallery');
+for(let i=1;i<=30;i++){
+  const img = document.createElement('img');
+  img.src = 'images/photo-'+i+'.jpg'; // replace with real photos into /images
+  img.alt = 'Фото ' + i;
+  gallery.appendChild(img);
+}
+
+// Calculator logic
+function getSelectedBase(){
+  const sel = document.getElementById('service').value;
+  return parseFloat(sel);
+}
+
+function calcTotal(){
+  const base = getSelectedBase();
+  const len = parseFloat(document.getElementById('length').value) || 0;
+  const angles = parseInt(document.getElementById('angles').value) || 0;
+  const coefs = [
+    parseFloat(document.getElementById('brick').value) || 1,
+    parseFloat(document.getElementById('monolit').value) || 1,
+    parseFloat(document.getElementById('plaster').value) || 1,
+    parseFloat(document.getElementById('gk').value) || 1,
+    parseFloat(document.getElementById('door').value) || 1,
+    parseFloat(document.getElementById('block').value) || 1,
+    parseFloat(document.getElementById('wood').value) || 1,
+    parseFloat(document.getElementById('arc').value) || 1
+  ];
+  const combinedCoef = coefs.reduce((a,b)=>a*b,1);
+  const anglePrice = 5 * angles;
+  const total = Math.round((base * len * combinedCoef + anglePrice));
+  document.getElementById('total').innerText = total + ' руб';
+  document.getElementById('calc_summary').value = `Услуга базовая: ${base} руб/м, длина: ${len} м, углы: ${angles}, коэффициент: ${combinedCoef.toFixed(2)}, итог: ${total} руб`;
+  return {total, base, len, angles, combinedCoef};
+}
+
+document.getElementById('calcBtn').addEventListener('click', (e)=>{e.preventDefault(); calcTotal();});
+
+document.getElementById('leadForm').addEventListener('submit', async function(e){
+  e.preventDefault();
+  calcTotal();
+  const data = {
+    name: document.getElementById('name').value,
+    phone: document.getElementById('phone').value,
+    comment: document.getElementById('comment').value,
+    calc: document.getElementById('calc_summary').value,
+    source: location.href
+  };
+  const endpoint = 'https://formspree.io/f/YOUR_FORMSPREE_ID';
+  try{
+    const res = await fetch(endpoint, {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify(data)
+    });
+    if(res.ok){
+      alert('Заявка отправлена. Спасибо! Мы свяжемся с вами.');
+    } else {
+      alert('Не удалось отправить заявку напрямую. Скопируйте данные и отправьте в WhatsApp.');
+    }
+  }catch(err){
+    console.error(err);
+    alert('Ошибка отправки. Проверьте подключение или настройте Formspree/Netlify.');
+  }
+});
+</script>
 </body>
 </html>
