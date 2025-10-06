@@ -3,191 +3,260 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Монтаж скрытых плинтусов — Сергей</title>
-  <meta name="description" content="Монтаж скрытых плинтусов, консультации. Заявки, замеры, оперативный выезд. Тел +375298274342" />
-  <meta name="keywords" content="плинтус, скрытый плинтус, монтаж плинтуса, монтаж скрытого плинтуса, замер, Минск" />
-  <link rel="icon" href="data:,"><style>
-  /* Simple modern styling (mobile-first) */
-  :root{--accent:#0f766e;--muted:#6b7280;--bg:#f8fafc;--card:#ffffff}
-  *{box-sizing:border-box}
-  body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:var(--bg); color:#0f172a}
-  .container{max-width:980px;margin:24px auto;padding:20px}
-  header{display:flex;gap:16px;align-items:center}
-  .logo{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#0ea5a4);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:20px}
-  h1{margin:0;font-size:20px}
-  p.lead{margin:6px 0;color:var(--muted)}
-  .grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:18px}
-  @media(min-width:900px){.grid{grid-template-columns:420px 1fr}}
-  .card{background:var(--card);padding:16px;border-radius:14px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+  <title>Монтаж плинтусов всех типов и любой сложности — Минск и Беларусь</title>
+  <meta name="description" content="Монтаж плинтусов всех типов и любой сложности в Минске и по Беларуси. Онлайн и офлайн консультации, быстрый выезд, замеры." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fcfbf9; /* warm light */
+      --muted:#6b6f72;
+      --card:#ffffff;
+      --accent:#0f766e; /* teal */
+      --accent-2:#c6a664; /* warm gold accent */
+      --wood:#e6d8c6; /* wood tone */
+      --glass: rgba(255,255,255,0.6);
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;color:#0f1724;background:var(--bg);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:1150px;margin:28px auto;padding:20px}
+    header.top{display:flex;align-items:center;gap:18px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:70px;height:70px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#0ea5a4);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 8px 30px rgba(15,118,110,0.12)}
+    h1.site{margin:0;font-size:22px;line-height:1.05}
+    p.lead{margin:6px 0 0;color:var(--muted)}
 
-  .services li{margin:8px 0;display:flex;justify-content:space-between}
-  .price{font-weight:700}
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:24px;margin-top:18px;align-items:center}
+    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.8));padding:28px;border-radius:20px;box-shadow:0 10px 30px rgba(16,24,40,0.06)}
+    .hero-visual{border-radius:20px;overflow:hidden;height:420px;display:flex;align-items:flex-end;background:linear-gradient(180deg, transparent 30%, rgba(0,0,0,0.06));position:relative}
+    .hero-visual img{width:100%;height:100%;object-fit:cover;display:block;filter:contrast(1.02) saturate(1.02)}
+    .hero-ctas{display:flex;gap:12px;margin-top:12px}
+    .btn{background:var(--accent);color:#fff;padding:12px 16px;border-radius:12px;text-decoration:none;display:inline-flex;align-items:center;gap:10px;font-weight:600}
+    .btn.ghost{background:transparent;border:1px solid rgba(15,118,110,0.12);color:var(--accent);}
 
-  .contacts{display:flex;flex-direction:row;gap:8px;align-items:center;flex-wrap:wrap}
-  .btn{display:inline-flex;gap:8px;align-items:center;padding:10px 12px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none}
-  .btn.secondary{background:#e6f6f5;color:var(--accent);border:1px solid rgba(15,118,110,0.08)}
+    /* Services & consultation column */
+    .grid{display:grid;grid-template-columns:1fr;gap:20px;margin-top:20px}
+    @media(min-width:980px){.grid{grid-template-columns:1fr 420px}}
+    .card{background:var(--card);padding:18px;border-radius:16px;box-shadow:0 8px 20px rgba(16,24,40,0.04)}
 
-  /* Calculator styles */
-  .calc-row{display:flex;gap:8px;margin:8px 0;align-items:center}
-  .calc-row input[type="number"],select{padding:8px;border-radius:8px;border:1px solid #e6e9ee;width:100%}
-  .calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-  .result{font-size:20px;font-weight:700;color:var(--accent)}
+    .services ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+    .services li{display:flex;justify-content:space-between;padding:10px;border-radius:12px;background:linear-gradient(180deg,#fff, #fbfbfb)}
 
-  footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    .consult{position:sticky;top:20px}
+    .consult .box{padding:14px;border-radius:12px;background:linear-gradient(180deg,var(--wood),#fff);border:1px solid rgba(0,0,0,0.03)}
 
-  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-  .gallery img{width:100%;height:110px;object-fit:cover;border-radius:8px}
+    /* Gallery */
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+    .gallery img{width:100%;height:160px;object-fit:cover;border-radius:10px;display:block}
 
-  .note{font-size:13px;color:var(--muted)} 
+    /* Prices & calc */
+    .calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+    input[type=number], select, input[type=text]{width:100%;padding:10px;border-radius:10px;border:1px solid #e6e9ee;background:#fff}
+
+    .result{font-size:20px;color:var(--accent);font-weight:700}
+
+    /* Reviews */
+    .reviews{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}
+    .review{padding:12px;border-radius:12px;background:linear-gradient(180deg,#fff,#fbfbfb);box-shadow:0 6px 18px rgba(10,10,10,0.02)}
+
+    @media(max-width:980px){
+      .hero{grid-template-columns:1fr}
+      .hero-visual{height:260px}
+      .reviews{grid-template-columns:1fr}
+      .gallery{grid-template-columns:repeat(2,1fr)}
+    }
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px;padding-bottom:40px}
+    .muted{color:var(--muted)}
+
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="logo">SZ</div>
-      <div>
-        <h1>Монтаж скрытых плинтусов — Сергей</h1>
-        <p class="lead">Монтаж скрытых плинтусов и консультирование. Работа по заявкам и замерам.</p>
-        <div class="contacts">
-          <a class="btn" href="tel:+375298274342">Позвонить</a>
-          <a class="btn" href="https://wa.me/375298274342" target="_blank">WhatsApp</a>
-          <a class="btn" href="viber://chat?number=%2B375298274342">Viber</a>
-          <a class="btn secondary" href="mailto:sergey8274342@yandex.ru">sergey8274342@yandex.ru</a>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand">
+        <div class="logo">SZ</div>
+        <div>
+          <h1 class="site">Монтаж плинтусов всех типов и любой сложности<br><span style="font-weight:600;color:var(--accent)">в Минске и по Беларуси</span></h1>
+          <p class="lead muted">Онлайн и офлайн консультации • Быстрый выезд и замер • Гарантия качества</p>
         </div>
+      </div>
+      <div style="margin-left:auto;display:flex;gap:8px;align-items:center">
+        <a class="btn" href="tel:+375298274342">Позвонить</a>
+        <a class="btn ghost" href="https://wa.me/375298274342" target="_blank">WhatsApp</a>
       </div>
     </header>
 
-    <div class="grid">
-      <aside class="card">
-        <h3>Услуги и цены (базовые)</h3>
-        <ul class="services">
-          <li><span>Монтаж скрытого плинтуса</span><span class="price">60 руб/м.п</span></li>
-          <li><span>С подсветкой</span><span class="price">90 руб/м.п</span></li>
-          <li><span>Теневой плинтус</span><span class="price">30 руб/м.п</span></li>
-          <li><span>Микро плинтус</span><span class="price">6 руб/м.п</span></li>
-          <li><span>Дюрополимер</span><span class="price">10 руб/м.п</span></li>
-          <li><span>МДФ</span><span class="price">10 руб/м.п</span></li>
-          <li><span>ПВХ</span><span class="price">8 руб/м.п</span></li>
-          <li><span>Дерево</span><span class="price">12 руб/м.п</span></li>
-          <li><span>Металл</span><span class="price">15 руб/м.п</span></li>
-          <li><span>Полиуретан</span><span class="price">12 руб/м.п</span></li>
-        </ul>
-        <hr />
-        <p class="note">Цвета и дизайн в современном стиле. Фото работ можно прислать или заказать генерацию изображений.</p>
-
-        <h3 style="margin-top:12px">Галерея (30 мест)</h3>
-        <div class="gallery" id="gallery">
-          <!-- placeholders: 30 slots, user can upload real photos later -->
+    <section class="hero">
+      <div class="hero-card">
+        <div style="display:flex;justify-content:space-between;align-items:start;gap:12px">
+          <div>
+            <h2 style="margin:0;font-size:18px">Профессиональный монтаж скрытых плинтусов</h2>
+            <p class="muted" style="margin-top:8px">Современные решения: подсветка, невидимые крепления, идеи для любого интерьера.</p>
+            <div class="hero-ctas">
+              <a class="btn" href="#contact">Заказать замер</a>
+              <a class="btn ghost" href="#consult">Получить консультацию</a>
+            </div>
+          </div>
+          <div style="min-width:140px;text-align:right;color:var(--muted)">
+            <div style="font-weight:700;font-size:18px">+375 (29) 827-43-42</div>
+            <div style="margin-top:6px">WhatsApp / Viber / Telegram</div>
+          </div>
         </div>
-        <p class="note">Замените изображения в папке /images или загрузите через CMS.</p>
-      </aside>
+        <div style="margin-top:18px;">
+          <div style="display:flex;gap:10px;align-items:center">
+            <div style="flex:1" class="muted">Колонки: монтаж всех типов • консультации онлайн / офлайн • точные замеры</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual card">
+        <img src="images/photo-1.jpg" alt="Главный показ" loading="lazy">
+      </div>
+    </section>
 
+    <div class="grid">
       <main>
-        <div class="card">
-          <h2>Онлайн-калькулятор</h2>
-          <p class="note">Введите метраж и параметры — калькулятор применит коэффициенты к базовой цене.</p>
-
-          <div style="margin-top:8px">
-            <label>Выберите услугу</label>
-            <select id="service">
-              <option value="60">Монтаж скрытого плинтуса — 60</option>
-              <option value="90">С подсветкой — 90</option>
-              <option value="30">Теневой — 30</option>
-              <option value="6">Микро — 6</option>
-              <option value="10">Дюрополимер — 10</option>
-              <option value="10m">МДФ — 10</option>
-              <option value="8">ПВХ — 8</option>
-              <option value="12">Дерево — 12</option>
-              <option value="15">Металл — 15</option>
-              <option value="12p">Полиуретан — 12</option>
-            </select>
+        <section class="card services">
+          <h3>Наши услуги</h3>
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px">
+            <ul>
+              <li>Монтаж скрытого плинтуса — <strong>60 руб/м.п</strong></li>
+              <li>С подсветкой — <strong>90 руб/м.п</strong></li>
+              <li>Теневой плинтус — <strong>30 руб/м.п</strong></li>
+              <li>Микро плинтус — <strong>6 руб/м.п</strong></li>
+              <li>Дюрополимер — <strong>10 руб/м.п</strong></li>
+            </ul>
+            <ul>
+              <li>МДФ — <strong>10 руб/м.п</strong></li>
+              <li>ПВХ — <strong>8 руб/м.п</strong></li>
+              <li>Деревянные — <strong>12 руб/м.п</strong></li>
+              <li>Металлические — <strong>15 руб/м.п</strong></li>
+              <li>Полиуретановые — <strong>12 руб/м.п</strong></li>
+            </ul>
           </div>
 
-          <div class="calc-grid" style="margin-top:8px">
-            <div>
-              <label>Длина (м.п.)</label>
+          <hr style="margin:14px 0;border:none;border-top:1px solid #f0f0f0">
+          <h4>Онлайн и офлайн консультации</h4>
+          <p class="muted">Провожу детальные консультации по монтажу скрытых плинтусов: выбор профиля, подсветки, подготовка стен. Консультация доступна в формате онлайн (видеозвонок) и офлайн (выезд на замер).</p>
+
+          <h4 style="margin-top:12px">Галерея работ — по 2–3 фото каждого типа</h4>
+          <div class="gallery" id="gallery">
+            <!-- 30 images placeholders -->
+          </div>
+        </section>
+
+        <section class="card" id="calc">
+          <h3>Калькулятор стоимости</h3>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <div style="flex:1;min-width:220px">
+              <label>Услуга</label>
+              <select id="service">
+                <option value="60">Монтаж скрытого плинтуса — 60</option>
+                <option value="90">С подсветкой — 90</option>
+                <option value="30">Теневой — 30</option>
+                <option value="6">Микро — 6</option>
+                <option value="10">Дюрополимер — 10</option>
+                <option value="10">МДФ — 10</option>
+                <option value="8">ПВХ — 8</option>
+                <option value="12">Дерево — 12</option>
+                <option value="15">Металл — 15</option>
+                <option value="12">Полиуретан — 12</option>
+              </select>
+            </div>
+            <div style="min-width:120px">
+              <label>Длина (м)</label>
               <input type="number" id="length" value="10" min="0" step="0.1">
             </div>
-            <div>
-              <label>Кол-во углов</label>
+            <div style="min-width:120px">
+              <label>Углы</label>
               <input type="number" id="angles" value="4" min="0" step="1">
             </div>
           </div>
 
-          <h4 style="margin-top:12px">Тип стен (коэффициенты)</h4>
-          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;">
+          <div style="margin-top:10px;display:grid;grid-template-columns:repeat(2,1fr);gap:8px">
             <label>Кирпичная стена <input type="number" class="coef" id="brick" value="1.20" step="0.01"></label>
-            <label>Монолитная стена <input type="number" class="coef" id="monolit" value="1.15" step="0.01"></label>
+            <label>Монолитная <input type="number" class="coef" id="monolit" value="1.15" step="0.01"></label>
             <label>Штукатурка <input type="number" class="coef" id="plaster" value="1.10" step="0.01"></label>
-            <label>Гипсокартон <input type="number" class="coef" id="gk" value="1.05" step="0.01"></label>
+            <label>ГКЛ <input type="number" class="coef" id="gk" value="1.05" step="0.01"></label>
             <label>Примыкание к дверям <input type="number" class="coef" id="door" value="1.08" step="0.01"></label>
             <label>Блочная стена <input type="number" class="coef" id="block" value="1.18" step="0.01"></label>
-            <label>Деревянная стена <input type="number" class="coef" id="wood" value="1.12" step="0.01"></label>
+            <label>Дерево <input type="number" class="coef" id="wood" value="1.12" step="0.01"></label>
             <label>Полукруглая стена <input type="number" class="coef" id="arc" value="1.25" step="0.01"></label>
           </div>
 
-          <div style="margin-top:12px" class="calc-row">
+          <div style="display:flex;gap:12px;align-items:center;margin-top:12px">
             <button class="btn" id="calcBtn">Посчитать</button>
             <div style="margin-left:auto">Итог: <span class="result" id="total">0 руб</span></div>
           </div>
+        </section>
 
-          <hr />
-
-          <h3>Онлайн-заявка</h3>
-          <p class="note">Форма отправляет данные на указанную endpoint (замените на Formspree / Netlify / ваш webhook).</p>
-          <form id="leadForm">
-            <div style="display:grid;gap:8px">
-              <input type="text" id="name" placeholder="Имя" required>
-              <input type="tel" id="phone" placeholder="Телефон" value="+375 (29) 827-43-42" required>
-              <textarea id="comment" placeholder="Комментарий / адрес / удобное время" rows="3"></textarea>
-              <input type="hidden" id="calc_summary" name="calc_summary">
-              <div style="display:flex;gap:8px">
-                <button class="btn" type="submit">Отправить заявку</button>
-                <a class="btn secondary" id="callBtn" href="tel:+375298274342">Позвонить</a>
-                <a class="btn" id="tgBtn" href="https://t.me/" target="_blank">Написать в Telegram</a>
-              </div>
-            </div>
-          </form>
-
-          <p class="note" style="margin-top:10px">Интеграция с Telegram: для автоматических уведомлений используйте webhook (Formspree → Zapier/Make → Telegram Bot) или разместите небольшую serverless-функцию, которая будет отправлять сообщения через Bot API. Не вставляйте токен бота в клиентский JS.</p>
-
-        </div>
-
-        <div class="card" style="margin-top:12px">
-          <h3>Аналитика и продвижение</h3>
-          <ul>
-            <li>Подключение Google Analytics (gtag) — вставьте ваш GA4 Measurement ID.</li>
-            <li>Подключение Яндекс.Метрики для тепловых карт и целей — вставьте ваш counter ID.</li>
-            <li>Добавьте meta-теги (Open Graph) и sitemap.xml (шаблон ниже) для SEO.</li>
-            <li>Подключите Google Search Console, Bing Webmaster — подтвердите права через DNS или файл.</li>
-            <li>Используйте UTM-метки в рекламных кампанийах для анализа трафика.</li>
-          </ul>
-        </div>
+        <section class="card reviews" id="reviews">
+          <div class="review">
+            <strong>Анна, Минск</strong>
+            <p class="muted">«Отличная работа — аккуратно, без пыли, монтаж занял один день. Рекомендую!»</p>
+          </div>
+          <div class="review">
+            <strong>Игорь, Брест</strong>
+            <p class="muted">«Профессионально, внимательное отношение. Подсветка выглядит супер.»</p>
+          </div>
+          <div class="review">
+            <strong>Марина, Гомель</strong>
+            <p class="muted">«Сделали быстро, выезд на замер был на следующий день. Спасибо!»</p>
+          </div>
+          <div class="review">
+            <strong>Сергей, Минск</strong>
+            <p class="muted">«Рекомендую мастера — качественно и по разумной цене.»</p>
+          </div>
+        </section>
 
       </main>
+
+      <aside class="consult card" id="consult">
+        <div class="box">
+          <h3>Консультации</h3>
+          <p class="muted">Онлайн (видеозвонок) и офлайн (выезд на замер). Помогу подобрать профиль, подсветку и технологию монтажа.</p>
+          <div style="display:flex;flex-direction:column;gap:8px;margin-top:10px">
+            <a class="btn" href="#contact">Записаться на замер</a>
+            <a class="btn ghost" href="https://wa.me/375298274342" target="_blank">Написать в WhatsApp</a>
+            <a class="btn ghost" href="mailto:sergey8274342@yandex.ru">Написать на e-mail</a>
+          </div>
+          <hr style="margin:12px 0;border:none;border-top:1px solid #f0f0f0">
+          <h4 id="contact">Контакты</h4>
+          <p style="margin:6px 0"><strong>Тел:</strong> +375 (29) 827-43-42</p>
+          <p style="margin:6px 0"><strong>Email:</strong> sergey8274342@yandex.ru</p>
+          <p style="margin:6px 0"><strong>Telegram/WhatsApp/Viber</strong></p>
+        </div>
+
+        <div style="margin-top:12px" class="card">
+          <h4>Преимущества</h4>
+          <ul style="padding-left:14px;color:var(--muted)">
+            <li>Точность и аккуратность</li>
+            <li>Гарантия на работы</li>
+            <li>Современные профили и подсветка</li>
+            <li>Онлайн-поддержка</li>
+          </ul>
+        </div>
+      </aside>
     </div>
 
     <footer>
-      <div>© Сергей — Монтаж скрытых плинтусов</div>
+      <div class="muted">© Сергей — Монтаж плинтусов всех типов. Минск и Беларусь.</div>
     </footer>
   </div>
 
 <script>
-// Populate gallery placeholders (30)
+// populate gallery with 30 placeholders
 const gallery = document.getElementById('gallery');
 for(let i=1;i<=30;i++){
   const img = document.createElement('img');
-  img.src = 'images/photo-'+i+'.jpg'; // replace with real photos into /images
+  img.src = 'images/photo-'+i+'.jpg';
   img.alt = 'Фото ' + i;
   gallery.appendChild(img);
 }
 
 // Calculator logic
-function getSelectedBase(){
-  const sel = document.getElementById('service').value;
-  return parseFloat(sel);
-}
-
+function getSelectedBase(){ return parseFloat(document.getElementById('service').value); }
 function calcTotal(){
   const base = getSelectedBase();
   const len = parseFloat(document.getElementById('length').value) || 0;
@@ -206,39 +275,9 @@ function calcTotal(){
   const anglePrice = 5 * angles;
   const total = Math.round((base * len * combinedCoef + anglePrice));
   document.getElementById('total').innerText = total + ' руб';
-  document.getElementById('calc_summary').value = `Услуга базовая: ${base} руб/м, длина: ${len} м, углы: ${angles}, коэффициент: ${combinedCoef.toFixed(2)}, итог: ${total} руб`;
   return {total, base, len, angles, combinedCoef};
 }
-
-document.getElementById('calcBtn').addEventListener('click', (e)=>{e.preventDefault(); calcTotal();});
-
-document.getElementById('leadForm').addEventListener('submit', async function(e){
-  e.preventDefault();
-  calcTotal();
-  const data = {
-    name: document.getElementById('name').value,
-    phone: document.getElementById('phone').value,
-    comment: document.getElementById('comment').value,
-    calc: document.getElementById('calc_summary').value,
-    source: location.href
-  };
-  const endpoint = 'https://formspree.io/f/YOUR_FORMSPREE_ID';
-  try{
-    const res = await fetch(endpoint, {
-      method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body: JSON.stringify(data)
-    });
-    if(res.ok){
-      alert('Заявка отправлена. Спасибо! Мы свяжемся с вами.');
-    } else {
-      alert('Не удалось отправить заявку напрямую. Скопируйте данные и отправьте в WhatsApp.');
-    }
-  }catch(err){
-    console.error(err);
-    alert('Ошибка отправки. Проверьте подключение или настройте Formspree/Netlify.');
-  }
-});
+document.getElementById('calcBtn').addEventListener('click',(e)=>{e.preventDefault();calcTotal();});
 </script>
 </body>
 </html>
